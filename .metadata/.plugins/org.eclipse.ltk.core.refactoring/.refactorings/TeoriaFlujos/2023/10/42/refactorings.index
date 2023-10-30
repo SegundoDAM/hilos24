@@ -1,0 +1,19 @@
+1697448647244	Rename local variable 'file'
+1697448857940	Extract local variable 'file09'
+1697525596051	Delete element
+1697526147671	Copy compilation units
+1697526205196	Extract method 'obtenerObjeto'
+1697526413139	Extract local variable 'readObject'
+1697526558011	Extract local variable 'consumidor'
+1697526577177	Extract local variable 'obtenerObjeto'
+1697528336563	Rename resource 'clientes.dat'
+1697703019537	Copy compilation unit
+1697703971966	Copy compilation unit
+1697704515221	Rename type 'AdaptadorMultiObjetoSerializadoIndexable'
+1697704792430	Extract local variable 'leer'
+1697705568816	Extract local variable 'array'
+1697782582454	Delete element
+1697783562844	Rename type 'AdaptadorMultiObjetoSerializadoMapeable'
+1697784584580	Rename type 'IAdaptadorMonoObjeto'
+1697784599824	Rename type 'IAdaptadorMultiObjetos'
+1697784703469	Copy compilation unit

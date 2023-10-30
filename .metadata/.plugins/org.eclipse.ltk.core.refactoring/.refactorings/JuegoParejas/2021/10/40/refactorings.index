@@ -1,0 +1,8 @@
+1633328253209	Rename type 'BoardPresenter'
+1633328274238	Rename type 'BoardPresenterConsole'
+1633330199526	Extract method 'getCoordinate'
+1633330932053	Rename method 'getCoordenada'
+1633330946116	Rename method 'mostrarTablero'
+1633331007930	Rename method 'revelarPosicion'
+1633501016660	Move compilation units
+1633501021068	Delete element

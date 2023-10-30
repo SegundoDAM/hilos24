@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 8 elements from project &apos;solid&apos;&#x0D;&#x0A;- Original project: &apos;solid&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     solid/src/inversiondecontrol05&#x0D;&#x0A;     solid/src/inversiondecontrol08&#x0D;&#x0A;     inversiondecontrol08.Enganche.java&#x0D;&#x0A;     inversiondecontrol08.Inyector.java&#x0D;&#x0A;     inversiondecontrol08.MiEnganche.java&#x0D;&#x0A;     inversiondecontrol08.Principal.java&#x0D;&#x0A;     solid/src/inversiondependencias06&#x0D;&#x0A;     solid/src/inversiondependencias07" description="Delete elements" element1="/src&lt;inversiondependencias07" element2="/src&lt;inversiondependencias06" element3="/src&lt;inversiondecontrol08" element4="/src&lt;inversiondecontrol05" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1665335236867" subPackages="false" version="1.0"/>
+</session>
