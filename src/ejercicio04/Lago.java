@@ -16,16 +16,21 @@ public class Lago {
 		return instancia;
 	}
 
-	public void incrementarVida() {
+	public synchronized void incrementarVida() {
 		vida++;
+		notify();
 	}
 
-	public boolean beber() {
-		boolean vacio = isVacio();
-		if (!vacio) {
-			vida--;
+	public synchronized void beber() {
+		while (isVacio()) {
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 		}
-		return !vacio;
+		notify();
+		vida--;
 	}
 
 	public boolean isVacio() {

@@ -1,5 +1,8 @@
 package ejercicio04;
 
+import java.time.Duration;
+import java.time.Instant;
+
 public class Ser extends Thread {
 
 	int vida;
@@ -36,13 +39,12 @@ public class Ser extends Thread {
 	public void run() {
 		System.out.println("Llego aqui " + nombre);
 		while (tamano < vida) {
-			if (Lago.getInstance().beber()) {
-				tamano++;
-				System.out.println("creci uno");
-			}else {
-				System.out.println("fui al lago y estaba seco");
-			}
+			Instant now = Instant.now();
+			Lago.getInstance().beber();
+			tamano++;
+			System.out.println("creci uno");
 			System.out.println(nombre);
+			System.out.println("he tardado "+(Duration.between(Instant.now(), now)));
 		}
 		System.out.println("muriendo con tamano " + tamano);
 	}
