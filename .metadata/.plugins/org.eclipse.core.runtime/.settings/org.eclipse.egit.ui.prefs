@@ -7,5 +7,6 @@ BranchProjectTracker__C\:\\DAM\ 20-21\\Programacion\ de\ servicios\ y\ procesos\
 commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>despues de merge</message>\r\n<message>refactorizando con clase Coordenada&\#x0A;</message>\r\n<message>refactorizando a clase Tablero</message>\r\n</messages>
 eclipse.preferences.version=1
 org.eclipse.egit.ui.githistorypage.showallfilter=SHOWALLREPO
+repositories_view_filters=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<FilterCache/>
 resourcehistory_graph_split=500,500
 resourcehistory_rev_split=700,300

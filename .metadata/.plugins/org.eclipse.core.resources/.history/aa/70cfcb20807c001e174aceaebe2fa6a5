@@ -1,0 +1,21 @@
+package test;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import org.junit.jupiter.api.Test;
+
+import modelo.Pit;
+import modelo.User;
+
+class PitTest {
+
+	@Test
+	void test() {
+		Pit pit = new Pit();
+		User user = new User("1", pit);
+		ExecutorService executorService = Executors.newCachedThreadPool();
+		executorService.execute(user);
+		System.out.println(user.getRandomReference());
+	}
+}

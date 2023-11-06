@@ -7,31 +7,32 @@
 		<item value="programacion &lt;72938653+ionicharnina2021@users.noreply.github.com&gt;"/>
 	</list>
 	<section name="org.eclipse.egit.ui.internal.merge.MergeResultDialog.dialogBounds">
-		<item value="796" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="293" key="DIALOG_HEIGHT"/>
-		<item value="477" key="DIALOG_X_ORIGIN"/>
-		<item value="356" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="796"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="293"/>
+		<item key="DIALOG_X_ORIGIN" value="477"/>
+		<item key="DIALOG_Y_ORIGIN" value="356"/>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.dialogs.CheckoutDialog.dialogBounds">
-		<item value="875" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="585" key="DIALOG_HEIGHT"/>
-		<item value="438" key="DIALOG_X_ORIGIN"/>
-		<item value="161" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="875"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="585"/>
+		<item key="DIALOG_X_ORIGIN" value="438"/>
+		<item key="DIALOG_Y_ORIGIN" value="161"/>
 	</section>
 	<section name="GitCommitMessageComponent">
 	</section>
 	<section name="org.eclipse.egit.ui.internal.dialogs.MergeTargetSelectionDialog.dialogBounds">
-		<item value="875" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="859" key="DIALOG_HEIGHT"/>
-		<item value="438" key="DIALOG_X_ORIGIN"/>
-		<item value="11" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="875"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="859"/>
+		<item key="DIALOG_X_ORIGIN" value="438"/>
+		<item key="DIALOG_Y_ORIGIN" value="11"/>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
-		<item value="200,200" key="STAGING_SASH_FORM_WEIGHT"/>
-		<item value="false" key="sortItemState"/>
-		<item value="200,200" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
 	</section>
 </section>

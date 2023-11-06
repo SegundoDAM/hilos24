@@ -1,0 +1,14 @@
+package modelo;
+
+public class User implements Runnable{
+	private String id;
+
+	@Override
+	public void run() {
+		char letter='a';
+		int columnMax=10;
+		
+	}
+	
+	
+}

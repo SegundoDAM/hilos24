@@ -1,0 +1,30 @@
+package test;
+
+import static org.junit.Assert.assertNotNull;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+
+import org.junit.jupiter.api.Test;
+
+import modelo.Pit;
+import modelo.Reference;
+import modelo.User;
+
+class PitTest {
+
+	@Test
+	void test() throws InterruptedException {
+		Pit pit = new Pit();
+		User user = new User("1", pit);
+		ExecutorService executorService = Executors.newCachedThreadPool();
+		executorService.execute(user);
+		//hay que esperar a que acabe
+		executorService.awaitTermination(2, TimeUnit.SECONDS);
+		Reference randomReference = user.getRandomReference();
+		assertNotNull(randomReference);
+		System.out.println(randomReference);
+		executorService.shutdown();
+	}
+}

@@ -1,0 +1,30 @@
+package modelo;
+
+public class Reference {
+
+	private char row;
+	private int colum;
+
+	public Reference(char row, int seat) {
+		super();
+		this.row = row;
+		this.colum = seat;
+	}
+
+	public char getRow() {
+		return row;
+	}
+
+	public void setRow(char row) {
+		this.row = row;
+	}
+
+	public int getSeat() {
+		return colum;
+	}
+
+	public void setSeat(int seat) {
+		this.colum = seat;
+	}
+
+}

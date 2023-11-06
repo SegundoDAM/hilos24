@@ -1,0 +1,15 @@
+package modelo;
+
+public class User implements Runnable{
+	private String id;
+
+	@Override
+	public void run() {
+		//aqui obtengo el asiento que quiero
+		Reference randomReference = Reference.getRandomReference();
+		//Pedir la reserva de asiento
+		
+	}
+	
+	
+}

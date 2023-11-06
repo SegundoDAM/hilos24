@@ -1,0 +1,19 @@
+package modelo;
+
+import java.util.Random;
+
+public class User implements Runnable{
+	private String id;
+
+	@Override
+	public void run() {
+		char letter='a';
+		char rowMax=10;
+		int columnMax=10;
+		
+		char randomChar=(char) ('a'+ new Random().nextInt(rowMax));
+		
+	}
+	
+	
+}

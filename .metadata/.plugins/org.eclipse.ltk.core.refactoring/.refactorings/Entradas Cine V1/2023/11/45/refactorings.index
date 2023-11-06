@@ -1,0 +1,7 @@
+1699258301518	Delete element
+1699258631634	Rename field 'seat'
+1699258774636	Extract local variable 'randomReference'
+1699259185303	Extract local variable 'takeSeat'
+1699259737377	Extract local variable 'newCachedThreadPool'
+1699260814824	Extract local variable 'randomReference'
+1699261264870	Extract local variable 'submit'
