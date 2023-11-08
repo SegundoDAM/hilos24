@@ -1,0 +1,50 @@
+package cajero14clientesColaMArket04;
+
+import java.util.ArrayDeque;
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.stream.Collectors;
+
+public class MainRunnable implements Runnable{
+	Cola cola=new Cola();
+	Caja cajero1 = new Caja("Cajero 1",cola);
+	Caja cajero2 = new Caja("Cajero 2",cola);
+	
+	public static void main(String[] args) {
+		MainRunnable superMercado=new MainRunnable();
+		//primero probamos sin arrancar el hilo del super
+		ExecutorService executorService = Executors.newCachedThreadPool();
+//		executorService.execute(superMercado);
+	}
+	public MainRunnable() {
+		super();
+		ExecutorService executorService = Executors.newCachedThreadPool();
+		executorService.execute(cajero1);
+		executorService.execute(cajero2);
+		
+	}
+
+
+	@Override
+	public void run() {
+		do {			
+			System.out.println("creando cliente");
+			if(!cola.isBigger(10))
+			cola.push(ClientesOM.getRandomClient());
+			//con esta cantidad funciona bien
+//			wasteTime(50000);
+			//con esta ya falla mucho porque hay sondeo
+			wasteTime(150000);
+		}while(true);
+		
+	}
+	private void wasteTime(int i) {
+		String cString="";
+		for (int j = 0; j < i; j++) {
+			cString+="a";
+		}
+		
+	}
+
+}

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="inversiondepndencias05.AInterface"/>
-    <fullyQualifiedTypeName name="inversiondepndencias05.AUno"/>
     <fullyQualifiedTypeName name="inversiondepndencias05.ADos"/>
     <fullyQualifiedTypeName name="juego03.Constantes"/>
     <fullyQualifiedTypeName name="inyecccionDependencias055.Necesitada"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
     <fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
     <fullyQualifiedTypeName name="modelo.Reference"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
 </qualifiedTypeNameHistroy>
