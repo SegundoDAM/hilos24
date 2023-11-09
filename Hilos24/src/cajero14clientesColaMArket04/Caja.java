@@ -37,7 +37,6 @@ public class Caja implements Runnable {
 
 		System.out.println("El cajero " + this.nombre + " HA TERMINADO DE PROCESAR " + cliente.getNombre()
 				+ " EN EL TIEMPO: " + Duration.between(older, now) + "seg");
-
 	}
 
 	private void esperarXsegundos(int segundos) {
@@ -57,6 +56,7 @@ public class Caja implements Runnable {
 				procesarCompra(cola.poll(), 1);
 			}
 //			System.out.println("cola vacia "+cola.clientes.isEmpty());
+//			esperarXsegundos(3);
 		} while (true);
 	}
 

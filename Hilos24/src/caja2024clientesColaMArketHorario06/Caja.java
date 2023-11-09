@@ -60,7 +60,7 @@ public class Caja implements Runnable {
 			}
 		} while (cliente != null);
 //		Logger.getGlobal().log(Level.INFO,"cierro, no hay clientes "+getNombre());
-		
+		System.out.println("termino caja");
 	}
 
 }
