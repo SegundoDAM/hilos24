@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="inversiondepndencias05.ADos"/>
-    <fullyQualifiedTypeName name="juego03.Constantes"/>
-    <fullyQualifiedTypeName name="inyecccionDependencias055.Necesitada"/>
     <fullyQualifiedTypeName name="dependenciaInyectada056.Necesitada"/>
     <fullyQualifiedTypeName name="inversionDependencia058.INecesitada"/>
     <fullyQualifiedTypeName name="inversionDependencia058.OtraNecesitada"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="modelo.Reference"/>
     <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="java.util.logging.Handler"/>
+    <fullyQualifiedTypeName name="java.util.logging.ConsoleHandler"/>
+    <fullyQualifiedTypeName name="java.util.logging.Level"/>
 </qualifiedTypeNameHistroy>
