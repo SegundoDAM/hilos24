@@ -1,0 +1,6 @@
+1699864066492	Extract local variable 'userRequest'
+1699864868620	Extract local variable 'askForASeat'
+1699864912800	Extract local variable 'reference'
+1699865176844	Extract local variable 'newCachedThreadPool'
+1699865210322	Extract local variable 'submit'
+1699865261090	Extract local variable 'reference'

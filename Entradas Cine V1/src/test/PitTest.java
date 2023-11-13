@@ -2,6 +2,7 @@ package test;
 
 import static org.junit.Assert.assertNotNull;
 
+import java.util.Optional;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -21,8 +22,8 @@ class PitTest {
 		Pit pit = new Pit();
 		User user = new User("1", pit);
 		ExecutorService executorService = Executors.newCachedThreadPool();
-		Future<Reference> submit = executorService.submit(user);
-		Reference randomReference = submit.get();
+		Future<Optional<Reference>> submit = executorService.submit(user);
+		Reference randomReference = submit.get().get();
 		assertNotNull(randomReference);
 		System.out.println(randomReference);
 		executorService.shutdown();

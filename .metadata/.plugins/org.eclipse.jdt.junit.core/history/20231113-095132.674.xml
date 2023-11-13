@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CallableUserTest" project="Entradas Cine V1" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="test.CallableUserTest" time="0.163" displayname="CallableUserTest" uniqueid="[engine:junit-jupiter]/[class:test.CallableUserTest]">
+    <testcase name="test" classname="test.CallableUserTest" time="0.163" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:test.CallableUserTest]/[method:test()]">
+      <failure>
+        <expected>null</expected>
+        <actual>a 1</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;null&gt; but was: &lt;a 1&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertNull.failNotNull(AssertNull.java:50)&#13;
+	at org.junit.jupiter.api.AssertNull.assertNull(AssertNull.java:35)&#13;
+	at org.junit.jupiter.api.AssertNull.assertNull(AssertNull.java:30)&#13;
+	at org.junit.jupiter.api.Assertions.assertNull(Assertions.java:275)&#13;
+	at test.CallableUserTest.test(CallableUserTest.java:28)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

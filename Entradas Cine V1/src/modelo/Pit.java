@@ -35,11 +35,10 @@ public class Pit {
 		return takeSeat(reference.getRow(),reference.getColum());
 	}
 	
-	public  boolean takeSeat(char letter, int seat) {
+	private  boolean takeSeat(char letter, int seat) {
 		try {
 			Thread.sleep(100);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		Seat requestedSeat = getSeat(letter, seat);
@@ -48,5 +47,10 @@ public class Pit {
 			return true;
 		}
 		return false;
+	}
+
+	public PitCode responseRequest(UserRequest userRequest) {
+		if(takeSeat(userRequest.getReference())) return PitCode.free;
+		return PitCode.taken;
 	}
 }

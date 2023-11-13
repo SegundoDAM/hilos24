@@ -1,21 +1,5 @@
 INDEX VERSION 1.134+C:\DAM 20-21\Programacion de servicios y procesos\05 Hilos\proyectos hilos clase 24\.metadata\.plugins\org.eclipse.jdt.core
-463042006.index
-609562536.index
-1554898041.index
-2839877406.index
+3413725848.index
 2587908024.index
-3959137331.index
-1150852966.index
-2006990570.index
-3769298018.index
-2203822675.index
-2673996447.index
 1865797976.index
-3443276554.index
-795561274.index
-3072644349.index
-1850880059.index
-2328269416.index
 1828098616.index
-3558531230.index
-2716940130.index

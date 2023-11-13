@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CallableUserTest" project="Entradas Cine V1" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="test.CallableUserTest" time="0.13" displayname="CallableUserTest" uniqueid="[engine:junit-jupiter]/[class:test.CallableUserTest]">
+    <testcase name="test" classname="test.CallableUserTest" time="0.13" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:test.CallableUserTest]/[method:test()]"/>
+  </testsuite>
+</testrun>
