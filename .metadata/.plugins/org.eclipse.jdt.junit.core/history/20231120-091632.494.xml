@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BlockingTest" project="Hilos24" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="justblockin17.BlockingTest" time="0.044" displayname="BlockingTest" uniqueid="[engine:junit-jupiter]/[class:justblockin17.BlockingTest]">
+    <testcase name="testTwo" classname="justblockin17.BlockingTest" time="0.019" displayname="testTwo()" uniqueid="[engine:junit-jupiter]/[class:justblockin17.BlockingTest]/[method:testTwo()]"/>
+    <testcase name="test" classname="justblockin17.BlockingTest" time="0.024" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:justblockin17.BlockingTest]/[method:test()]"/>
+  </testsuite>
+</testrun>

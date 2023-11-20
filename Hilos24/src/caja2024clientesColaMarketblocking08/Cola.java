@@ -19,22 +19,12 @@ public class Cola {
 		return clientes.size() > 10;
 	}
 
-	public synchronized Cliente get() throws InterruptedException {
-		while (clientes.isEmpty() && !totalClientesAlcanzado()) {
-			wait();
-		}
-		if (!clientes.isEmpty()) {
-			Cliente poll = clientes.poll();
-			return poll;
-		}
-		return null;
+	public Cliente get() throws InterruptedException {
+		return clientes.poll();
 	}
 
-	public synchronized void put(Optional<Cliente> optional) {
-		if (push(optional)) {
-			notify();
-		}
-		if(totalClientesAlcanzado()) notify();
+	public void put(Optional<Cliente> optional) {
+		push(optional);
 	}
 
 	public boolean totalClientesAlcanzado() {
