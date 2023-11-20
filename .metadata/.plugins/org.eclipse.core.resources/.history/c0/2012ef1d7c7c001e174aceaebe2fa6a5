@@ -1,7 +1,0 @@
-package modelo;
-
-public class Utiles {
-	public static char getMax() {
-		
-	}
-}

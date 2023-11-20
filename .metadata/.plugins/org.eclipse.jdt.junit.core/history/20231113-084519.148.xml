@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunnableTest" project="Hilos24" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="caja2024clientesColaMArketfuture07.MainRunnableTest" time="1.182" displayname="MainRunnableTest" uniqueid="[engine:junit-jupiter]/[class:caja2024clientesColaMArketfuture07.MainRunnableTest]">
-    <testcase name="test" classname="caja2024clientesColaMArketfuture07.MainRunnableTest" time="1.182" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:caja2024clientesColaMArketfuture07.MainRunnableTest]/[method:test()]"/>
-  </testsuite>
-</testrun>
