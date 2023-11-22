@@ -8,16 +8,16 @@ public enum FactoryManager {
 	Performance(()->{return new PerformanceProductor();}),
 	RollerCoaster(()->{return new RollerCoasterProduct();});
 	
-	private Supplier<AbstractProductor> getFairground;
+	private Supplier<AbstractProductor> productorSupplier;
 	
-	private FactoryManager(Supplier<AbstractProductor> getFairground) {
-		this.getFairground = getFairground;
+	private FactoryManager(Supplier<AbstractProductor> productorSupplier) {
+		this.productorSupplier = productorSupplier;
 	}
 
 	public static AbstractProductor getRandomFairGround(){
 		return FactoryManager.values()
 				[new Random()
 				 .nextInt(FactoryManager.values()
-						 .length)].getFairground.get();
+						 .length)].productorSupplier.get();
 	}
 }

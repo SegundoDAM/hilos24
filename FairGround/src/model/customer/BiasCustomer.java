@@ -17,17 +17,13 @@ public class BiasCustomer  {
 	private float minimumEnjoyment = 5f;
 	private Fraction currentEnjoyment = new Fraction();
 	private long breakTime=1000;
-	private WorkingDay workingDay;
 
-	public BiasCustomer(int maxRides, List<FairGround> fairGrounds,WorkingDay workingDay) {
+	public BiasCustomer(int maxRides, List<FairGround> fairGrounds) {
 		super();
 		this.maxRides = maxRides;
 		// Al principio tiene muchas ganas
 		currentEnjoyment.incrementOneValoration(10);
-		this.workingDay=workingDay;
 	}
-
-	
 
 	public CustomerCard takeRide() {
 		return null;
