@@ -4,17 +4,17 @@ import java.util.Random;
 import java.util.function.Supplier;
 
 public enum FactoryManager {
-	Show(()->{return new ShowProductor().createFairGround();}),
-	Performance(()->{return new PerformanceProductor().createFairGround();}),
-	RollerCoaster(()->{return new RollerCoasterProduct().createFairGround();});
+	Show(()->{return new ShowProductor();}),
+	Performance(()->{return new PerformanceProductor();}),
+	RollerCoaster(()->{return new RollerCoasterProduct();});
 	
-	private Supplier<FairGround> getFairground;
+	private Supplier<AbstractProductor> getFairground;
 	
-	private FactoryManager(Supplier<FairGround> getFairground) {
+	private FactoryManager(Supplier<AbstractProductor> getFairground) {
 		this.getFairground = getFairground;
 	}
 
-	public FairGround getRandomFairGround(){
+	public static AbstractProductor getRandomFairGround(){
 		return FactoryManager.values()
 				[new Random()
 				 .nextInt(FactoryManager.values()
